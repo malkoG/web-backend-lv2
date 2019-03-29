@@ -1,12 +1,12 @@
 import * as React from 'react';
 import {Route} from 'react-router-dom'
 
-import { LoginView } from '../containers/LoginView'
-import { PostListView } from '../containers/PostListView'
-import { PostView } from '../containers/PostView'
-import { UserListView } from '../containers/UserListView'
-import { UserDetailView } from '../containers/UserDetailView'
-import { CommentView } from '../containers/CommentView'
+import LoginView from '../containers/LoginView'
+import PostListView from '../containers/PostListView'
+import PostView from '../containers/PostView'
+import UserListView from '../containers/UserListView'
+import UserDetailView from '../containers/UserDetailView'
+import CommentView from '../containers/CommentView'
 
 export class Section extends React.Component {
 

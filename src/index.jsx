@@ -4,14 +4,14 @@ import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
 
-import * as History from 'history'
+import { createBrowserHistory } from 'history'
 
 import App from './App';
 import { store } from './stores/main';
 
 import registerServiceWorker from './registerServiceWorker';
 
-const history = History.createBrowserHistory();
+const history = createBrowserHistory();
 
 ReactDOM.render(
     <Provider store={store}>
